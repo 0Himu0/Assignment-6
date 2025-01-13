@@ -24,3 +24,5 @@ Desktop, Tablet and Mobile devices.
 
 # Live link to the deployed project
 https://0himu0.github.io/Assignment-6/
+
+https://peddyb10a6.netlify.app
