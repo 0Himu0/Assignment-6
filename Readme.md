@@ -23,3 +23,4 @@ Desktop, Tablet and Mobile devices.
 - Template Literals
 
 # Live link to the deployed project
+https://0himu0.github.io/Assignment-6/
