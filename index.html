@@ -41,23 +41,23 @@
             <button onclick="toggleSidebar()" id="menuBtn" class="text-[#131313] sm:hidden">
                 <i class="fa-solid fa-bars"></i>
             </button>
-            <div
-                class="absolute left-1/2 flex -translate-x-1/2 transform items-center justify-center gap-3 sm:relative sm:left-auto sm:transform-none">
-                <img class="h-6" src="./images/logo.svg" alt="Peddy logo" />
+
+            <div class="absolute left-1/2 flex -translate-x-1/2 transform items-center justify-center gap-3 sm:relative sm:left-auto sm:transform-none">
+                <img class="h-6" src="/B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills-main/images/logo.svg" alt="Peddy logo" />
                 <h3 class="text-3xl font-black text-[#131313]">Peddy</h3>
             </div>
-            <ul
-                class="absolute left-1/2 hidden -translate-x-1/2 transform items-center justify-center gap-8 text-[#131313] sm:flex">
+
+            <ul class="absolute left-1/2 hidden -translate-x-1/2 transform items-center justify-center gap-8 text-[#131313] sm:flex">
                 <li><a href="" class="hover:text-[#0E7A81]">Home</a></li>
                 <li><a href="" class="hover:text-[#0E7A81]">Shop</a></li>
                 <li><a href="" class="hover:text-[#0E7A81]">Contact</a></li>
             </ul>
-            <div
-                class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-[#0E7A8133] p-2 hover:bg-[#0E7A8133] md:h-12 md:w-12">
-                <img class="h-full w-full" src="./images/profile.svg" alt="" />
+
+            <div class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-[#0E7A8133] p-2 hover:bg-[#0E7A8133] md:h-12 md:w-12">
+                <img class="h-full w-full" src="/B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills-main/images/profile.svg" alt="" />
             </div>
-            <aside id="sidebar"
-                class="fixed left-0 top-0 z-10 hidden h-screen w-48 bg-white/10 p-10 shadow-md backdrop-blur-md">
+
+            <aside id="sidebar" class="fixed left-0 top-0 z-10 hidden h-screen w-48 bg-white/10 p-10 shadow-md backdrop-blur-md">
                 <button onclick="toggleSidebar()" class="absolute right-5 top-5">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
@@ -74,15 +74,14 @@
                 </ul>
             </aside>
         </nav>
+
         <!--Banner section -->
         <section class="mx-auto mt-4 w-11/12 max-w-[1320px]">
             <div class="mx-auto max-w-screen-md text-center">
-                <h4
-                    class="mb-3 text-center font-bold text-[#13131399] sm:mb-4 sm:text-lg md:mb-5 md:text-xl lg:mb-6 lg:text-2xl">
+                <h4 class="mb-3 text-center font-bold text-[#13131399] sm:mb-4 sm:text-lg md:mb-5 md:text-xl lg:mb-6 lg:text-2xl">
                     Bringing Families Together ❤️‍🔥
                 </h4>
-                <h1
-                    class="mx-auto mb-3 text-center text-4xl font-black text-[#131313] sm:mb-4 sm:text-5xl md:mb-5 md:text-6xl lg:mb-6 lg:text-7xl">
+                <h1 class="mx-auto mb-3 text-center text-4xl font-black text-[#131313] sm:mb-4 sm:text-5xl md:mb-5 md:text-6xl lg:mb-6 lg:text-7xl">
                     Your Path to Adoption Starts Here
                 </h1>
                 <p class="mx-auto mb-5 text-center text-[#131313] sm:mb-6 md:mb-7 lg:mb-8">
@@ -90,15 +89,15 @@
                     companions. If you are looking to adopt, we're here to make it easy,
                     safe, and enjoyable.
                 </p>
-                <a href="#adopt"
-                    class="mb-8 inline-block transform rounded-xl bg-[#0E7A81] px-4 py-2 font-bold text-white transition duration-150 ease-in-out active:scale-95 md:mb-10 md:px-6 md:py-3 lg:mb-12 lg:px-8 lg:py-4">View
-                    More</a>
+                <a href="#adopt" class="mb-8 inline-block transform rounded-xl bg-[#0E7A81] px-4 py-2 font-bold text-white transition duration-150 ease-in-out active:scale-95 md:mb-10 md:px-6 md:py-3 lg:mb-12 lg:px-8 lg:py-4">
+                    View More</a>
                 <img src="./images/pet.jpg" alt="" class="w-full" />
             </div>
         </section>
     </header>
 
     <main class="mt-12 sm:mt-16 md:mt-20 lg:mt-24">
+
         <!-- Adopt section -->
         <section id="adopt" class="mx-auto w-11/12 max-w-[1320px] scroll-mt-8">
             <div class="mx-auto max-w-screen-md text-center">
@@ -125,11 +124,13 @@
             </div>
 
             <div class="mb-6 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:mb-8 lg:grid-cols-4">
+
                 <div id="loading" class="col-span-1 hidden md:col-span-2 lg:col-span-3">
                     <div class="flex min-h-24 items-center justify-center sm:h-full">
                         <span class="loading loading-bars loading-lg"></span>
                     </div>
                 </div>
+
                 <div id="pets-container" class="col-span-1 md:col-span-2 lg:col-span-3">
                     <div id="pets" class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
                 </div>
@@ -146,7 +147,7 @@
             <div class="flex h-full w-full items-center justify-center">
                 <div
                     class="mx-auto max-h-[90vh] w-11/12 max-w-96 overflow-y-auto overscroll-none rounded-xl bg-white p-8 text-center">
-                    <img src="./images/logo.svg" alt="" class="mx-auto mb-3" />
+                    <img src="/B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills-main/images/logo.svg" alt="" class="mx-auto mb-3" />
                     <h3 class="mb-3 text-xl font-bold text-[#131313] md:text-2xl lg:text-3xl">
                         Congrates!
                     </h3>
@@ -161,31 +162,32 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-[#131313] py-8 md:py-16 lg:py-24">
         <div class="mx-auto grid w-11/12 max-w-[1320px] grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
             <div>
                 <div class="mb-4 flex items-center gap-3 md:mb-5 lg:mb-6">
-                    <img class="h-6" src="./images/logo.svg" alt="Peddy logo" />
+                    <img class="h-6" src="/B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills-main/images/logo.svg" alt="Peddy logo" />
                     <h3 class="text-3xl font-black text-white">Peddy</h3>
                 </div>
                 <ul class="mb-4 text-[#FFFFFFE5] md:mb-5 lg:mb-6">
-                    <li>Location: av. Washington 165, NY CA 54003</li>
-                    <li>Phone: +31 85 964 47 25</li>
-                    <li>Email: info@yourdomain.com</li>
-                    <li>Openings hours: 9.00 AM - 5.00 PM</li>
+                    <li>Location: Dhanmondi-32, Dhaka...</li>
+                    <li>Phone: +88018017016HI</li>
+                    <li>Email: wrongINFO@gmail.com</li>
+                    <li>Openings hours: 9.00 AM - 8.00 PM</li>
                 </ul>
                 <ul class="flex items-center gap-6">
                     <li>
-                        <a href=""><img src="./images/facebook.svg" alt="" class="h-6 lg:h-full" /></a>
+                        <a href=""><img src="/B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills-main/images/facebook.svg" alt="" class="h-6 lg:h-full" /></a>
                     </li>
                     <li>
-                        <a href=""><img src="./images/x.svg" alt="" class="h-6 lg:h-full" /></a>
+                        <a href=""><img src="/B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills-main/images/x.svg" alt="" class="h-6 lg:h-full" /></a>
                     </li>
                     <li>
-                        <a href=""><img src="./images/youtube.svg" alt="" class="h-6 lg:h-full" /></a>
+                        <a href=""><img src="/B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills-main/images/youtube.svg" alt="" class="h-6 lg:h-full" /></a>
                     </li>
                     <li>
-                        <a href=""><img src="./images/instagram.svg" alt="" class="h-6 lg:h-full" /></a>
+                        <a href=""><img src="/B10A6-Assess-Your-Asynchronous-JS-and-ES6-skills-main/images/instagram.svg" alt="" class="h-6 lg:h-full" /></a>
                     </li>
                 </ul>
             </div>
